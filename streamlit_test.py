@@ -17,5 +17,5 @@ if user_id == 'abcd' and user_pw == '1234':
     image_files=["welcome.jpg","le.jpg","ai.jpg","fu.jpg","rui.jpg","hui.jpg"]
     sel_index = sel_options.index(user_opt)
     img_file = image_files[sel_index]
-    img_local = Image.open(f"img/{img_file}")
+    img_local = Image.open(f"(img_file))
     st.image(img_local, caption=user_opt)
