@@ -19,3 +19,4 @@ if user_id == 'abcd' and user_pw == '1234':
     img_file = image_files[sel_index]
     img_local = Image.open(img_file)
     st.image(img_local, caption=user_opt)
+    
