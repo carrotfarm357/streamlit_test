@@ -9,7 +9,7 @@ user_pw = st.sidebar.text_input("PW", value="", type='password')
 if user_id == 'abcd' and user_pw == '1234':
     st.sidebar.header("Image List")
     sel_options = ["", 'le', 'ai', 'fu', 'rui', 'hui']
-    user_opt = st.sidebar.selectbox("like", sel_options, index=0)
+    user_opt = st.sidebar.selectbox("Panda", sel_options, index=0)
     st.sidebar.write("select>> ", user_opt)
 
     # 메인 화면
